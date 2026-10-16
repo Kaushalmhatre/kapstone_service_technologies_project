@@ -1,0 +1,48 @@
+{
+  "samples_total": 480,
+  "train_samples": 360,
+  "test_samples": 120,
+  "accuracy": 1.0,
+  "precision_suspicious": 1.0,
+  "recall_suspicious": 1.0,
+  "f1_suspicious": 1.0,
+  "confusion_matrix": [
+    [
+      60,
+      0
+    ],
+    [
+      0,
+      60
+    ]
+  ],
+  "classification_report": {
+    "normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "suspicious": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 120.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 120.0
+    }
+  },
+  "model": "TF-IDF + Logistic Regression",
+  "note": "Evaluation uses a held-out split of a synthetic teaching dataset; metrics are not evidence of real-world production performance."
+}

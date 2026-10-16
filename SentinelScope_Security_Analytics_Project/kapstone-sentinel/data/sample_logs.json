@@ -1,0 +1,92 @@
+[
+  {
+    "event_id": "EVT-1001",
+    "timestamp": "2026-10-16T08:10:00Z",
+    "event_type": "authentication",
+    "source_ip": "198.51.100.24",
+    "asset": "vpn-gateway-01",
+    "severity": "high",
+    "message": "Multiple failed login attempts against admin account"
+  },
+  {
+    "event_id": "EVT-1002",
+    "timestamp": "2026-10-16T08:12:00Z",
+    "event_type": "authentication",
+    "source_ip": "198.51.100.24",
+    "asset": "vpn-gateway-01",
+    "severity": "critical",
+    "message": "Successful login after repeated failures from unusual location"
+  },
+  {
+    "event_id": "EVT-1003",
+    "timestamp": "2026-10-16T08:18:00Z",
+    "event_type": "access",
+    "source_ip": "198.51.100.24",
+    "asset": "finance-server-02",
+    "severity": "high",
+    "message": "Privilege escalation detected for account without approval"
+  },
+  {
+    "event_id": "EVT-1004",
+    "timestamp": "2026-10-16T08:21:00Z",
+    "event_type": "data",
+    "source_ip": "198.51.100.24",
+    "asset": "finance-server-02",
+    "severity": "critical",
+    "message": "Large volume of sensitive files copied to external destination"
+  },
+  {
+    "event_id": "EVT-1005",
+    "timestamp": "2026-10-16T09:00:00Z",
+    "event_type": "endpoint",
+    "source_ip": "10.0.2.15",
+    "asset": "workstation-15",
+    "severity": "medium",
+    "message": "Scheduled software update completed successfully"
+  },
+  {
+    "event_id": "EVT-1006",
+    "timestamp": "2026-10-16T09:05:00Z",
+    "event_type": "network",
+    "source_ip": "203.0.113.77",
+    "asset": "web-server-01",
+    "severity": "high",
+    "message": "Repeated port scanning detected from external source"
+  },
+  {
+    "event_id": "EVT-1007",
+    "timestamp": "2026-10-16T09:09:00Z",
+    "event_type": "network",
+    "source_ip": "203.0.113.77",
+    "asset": "web-server-01",
+    "severity": "high",
+    "message": "Outbound connection to suspicious command and control address"
+  },
+  {
+    "event_id": "EVT-1008",
+    "timestamp": "2026-10-16T09:30:00Z",
+    "event_type": "authentication",
+    "source_ip": "10.0.1.25",
+    "asset": "identity-service",
+    "severity": "low",
+    "message": "MFA challenge passed successfully"
+  },
+  {
+    "event_id": "EVT-1009",
+    "timestamp": "2026-10-16T10:00:00Z",
+    "event_type": "email",
+    "source_ip": "10.0.3.19",
+    "asset": "mail-gateway",
+    "severity": "high",
+    "message": "Suspicious attachment blocked by endpoint protection"
+  },
+  {
+    "event_id": "EVT-1010",
+    "timestamp": "2026-10-16T10:04:00Z",
+    "event_type": "endpoint",
+    "source_ip": "10.0.3.19",
+    "asset": "workstation-19",
+    "severity": "critical",
+    "message": "Malware behavior detected and process quarantined"
+  }
+]

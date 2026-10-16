@@ -1,0 +1,481 @@
+event_id,timestamp,event_type,source_ip,asset,severity,message,label
+TRN-0100,2026-10-13T03:50:00Z,authentication,10.0.1.90,asset-18,info,MFA challenge passed successfully,normal
+TRN-0111,2026-10-05T21:37:00Z,access,10.0.6.123,asset-18,medium,User accessed an authorized internal application,normal
+TRN-0168,2026-10-05T14:02:00Z,authentication,10.0.6.189,asset-05,low,Successful login from a known device,normal
+TRN-0045,2026-10-06T08:13:00Z,firewall,10.0.6.63,asset-09,info,Firewall allowed approved outbound traffic,normal
+TRN-0149,2026-10-10T12:14:00Z,access,10.0.7.13,asset-11,medium,User accessed an authorized internal application,normal
+TRS-0013,2026-10-01T20:32:00Z,firewall,203.0.113.184,asset-01,medium,Repeated port scanning detected from external source,suspicious
+TRS-0104,2026-10-11T21:21:00Z,firewall,10.0.8.249,asset-16,critical,Repeated port scanning detected from external source,suspicious
+TRN-0065,2026-10-12T10:27:00Z,email,10.0.2.100,asset-19,low,Email delivered with no suspicious attachment detected,normal
+TRN-0108,2026-10-09T00:33:00Z,system,10.0.4.23,asset-08,medium,Routine system health check completed,normal
+TRS-0133,2026-10-04T08:42:00Z,access,203.0.113.109,asset-20,critical,Privilege escalation detected for an account without approval,suspicious
+TRS-0178,2026-10-01T08:13:00Z,authentication,203.0.113.16,asset-17,critical,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0025,2026-10-01T07:56:00Z,access,10.0.2.23,asset-16,low,User accessed an authorized internal application,normal
+TRS-0154,2026-10-07T03:47:00Z,endpoint,185.199.213.168,asset-15,critical,PowerShell launched with encoded command and hidden window,suspicious
+TRS-0163,2026-10-07T06:31:00Z,endpoint,10.0.5.88,asset-19,high,PowerShell launched with encoded command and hidden window,suspicious
+TRS-0014,2026-10-04T18:26:00Z,email,203.0.113.172,asset-03,medium,Suspicious attachment blocked by endpoint protection,suspicious
+TRN-0073,2026-10-13T23:10:00Z,backup,10.0.2.74,asset-17,medium,Scheduled backup completed successfully,normal
+TRS-0188,2026-10-13T22:47:00Z,firewall,203.0.113.58,asset-11,critical,Repeated port scanning detected from external source,suspicious
+TRN-0095,2026-10-13T00:15:00Z,authentication,10.0.4.216,asset-01,medium,Successful login from a known device,normal
+TRN-0171,2026-10-13T09:47:00Z,backup,10.0.6.207,asset-04,info,Scheduled backup completed successfully,normal
+TRS-0169,2026-10-12T04:30:00Z,dns,185.199.19.59,asset-04,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0240,2026-10-03T04:04:00Z,access,10.0.5.218,asset-04,medium,User accessed an authorized internal application,normal
+TRS-0196,2026-10-10T03:32:00Z,authentication,10.0.7.21,asset-19,high,Login from an unusual geographic location outside normal hours,suspicious
+TRS-0031,2026-10-08T02:51:00Z,network,203.0.113.217,asset-03,medium,Unusual data exfiltration pattern to an external host,suspicious
+TRN-0101,2026-10-02T16:41:00Z,email,10.0.6.5,asset-14,info,Email delivered with no suspicious attachment detected,normal
+TRS-0057,2026-10-09T20:46:00Z,network,10.0.7.39,asset-08,high,Outbound connection to a known malicious command and control address,suspicious
+TRN-0063,2026-10-11T16:25:00Z,email,10.0.6.242,asset-01,low,Email delivered with no suspicious attachment detected,normal
+TRN-0187,2026-10-05T05:07:00Z,firewall,10.0.1.35,asset-01,info,Firewall allowed approved outbound traffic,normal
+TRN-0060,2026-10-05T05:50:00Z,access,10.0.2.99,asset-02,info,User accessed an authorized internal application,normal
+TRN-0076,2026-10-07T20:36:00Z,backup,10.0.4.185,asset-13,info,Scheduled backup completed successfully,normal
+TRS-0148,2026-10-09T12:26:00Z,network,185.199.153.36,asset-16,medium,Outbound connection to a known malicious command and control address,suspicious
+TRS-0194,2026-10-05T03:13:00Z,network,185.199.136.252,asset-05,medium,Unusual data exfiltration pattern to an external host,suspicious
+TRS-0040,2026-10-06T18:02:00Z,authentication,10.0.2.13,asset-19,critical,Authentication attempts against many user accounts,suspicious
+TRN-0113,2026-10-05T07:07:00Z,system,10.0.4.82,asset-04,medium,Routine system health check completed,normal
+TRN-0040,2026-10-05T13:44:00Z,backup,10.0.8.41,asset-07,info,Scheduled backup completed successfully,normal
+TRS-0005,2026-10-13T09:49:00Z,data,185.199.98.129,asset-07,medium,Large volume of sensitive files copied to removable media,suspicious
+TRN-0224,2026-10-03T20:31:00Z,network,10.0.8.195,asset-19,medium,Routine HTTPS connection to approved business service,normal
+TRN-0131,2026-10-15T13:47:00Z,authentication,10.0.6.156,asset-09,low,Successful login from a known device,normal
+TRS-0172,2026-10-11T14:55:00Z,authentication,185.199.56.23,asset-19,medium,Authentication attempts against many user accounts,suspicious
+TRS-0083,2026-10-03T16:26:00Z,data,203.0.113.15,asset-01,critical,Large volume of sensitive files copied to removable media,suspicious
+TRN-0022,2026-10-15T03:55:00Z,firewall,10.0.5.217,asset-17,medium,Firewall allowed approved outbound traffic,normal
+TRS-0125,2026-10-03T04:17:00Z,dns,185.199.78.69,asset-14,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0042,2026-10-10T15:32:00Z,authentication,10.0.3.16,asset-17,low,Successful login from a known device,normal
+TRN-0119,2026-10-03T01:16:00Z,email,10.0.8.31,asset-03,info,Email delivered with no suspicious attachment detected,normal
+TRN-0009,2026-10-13T09:05:00Z,access,10.0.4.223,asset-04,info,User accessed an authorized internal application,normal
+TRS-0171,2026-10-10T00:39:00Z,firewall,185.199.167.43,asset-05,critical,Repeated port scanning detected from external source,suspicious
+TRN-0057,2026-10-11T07:42:00Z,access,10.0.2.92,asset-18,info,User accessed an authorized internal application,normal
+TRN-0225,2026-10-11T18:41:00Z,backup,10.0.6.223,asset-11,low,Scheduled backup completed successfully,normal
+TRN-0008,2026-10-15T11:36:00Z,authentication,10.0.4.182,asset-03,low,MFA challenge passed successfully,normal
+TRN-0048,2026-10-03T11:56:00Z,system,10.0.2.227,asset-08,info,Routine system health check completed,normal
+TRN-0181,2026-10-04T14:28:00Z,email,10.0.4.220,asset-12,low,Email delivered with no suspicious attachment detected,normal
+TRS-0204,2026-10-05T02:01:00Z,authentication,185.199.17.51,asset-03,critical,Authentication attempts against many user accounts,suspicious
+TRS-0201,2026-10-04T11:25:00Z,network,185.199.132.13,asset-01,critical,Unusual data exfiltration pattern to an external host,suspicious
+TRS-0108,2026-10-08T00:00:00Z,endpoint,10.0.1.6,asset-09,medium,Malware behavior detected and process quarantined,suspicious
+TRN-0024,2026-10-06T15:01:00Z,authentication,10.0.2.239,asset-12,info,MFA challenge passed successfully,normal
+TRS-0224,2026-10-15T12:22:00Z,data,10.0.8.203,asset-08,high,Large volume of sensitive files copied to removable media,suspicious
+TRN-0147,2026-10-14T04:28:00Z,backup,10.0.8.90,asset-11,medium,Scheduled backup completed successfully,normal
+TRN-0003,2026-10-02T06:14:00Z,authentication,10.0.1.145,asset-07,medium,Successful login from a known device,normal
+TRS-0075,2026-10-07T21:06:00Z,authentication,185.199.48.252,asset-01,critical,Login from an unusual geographic location outside normal hours,suspicious
+TRS-0056,2026-10-05T20:50:00Z,data,185.199.249.199,asset-19,critical,Large volume of sensitive files copied to removable media,suspicious
+TRS-0054,2026-10-10T23:53:00Z,dns,10.0.8.183,asset-10,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0007,2026-10-09T03:59:00Z,backup,10.0.7.22,asset-18,info,Scheduled backup completed successfully,normal
+TRN-0190,2026-10-10T03:28:00Z,firewall,10.0.4.244,asset-20,low,Firewall allowed approved outbound traffic,normal
+TRS-0217,2026-10-06T22:42:00Z,authentication,203.0.113.26,asset-05,high,Login from an unusual geographic location outside normal hours,suspicious
+TRS-0156,2026-10-14T22:39:00Z,email,185.199.162.110,asset-07,high,Suspicious attachment blocked by endpoint protection,suspicious
+TRN-0120,2026-10-02T18:40:00Z,backup,10.0.1.40,asset-05,medium,Scheduled backup completed successfully,normal
+TRN-0150,2026-10-12T12:24:00Z,backup,10.0.3.128,asset-02,low,Scheduled backup completed successfully,normal
+TRN-0132,2026-10-04T21:53:00Z,network,10.0.1.197,asset-09,medium,Routine HTTPS connection to approved business service,normal
+TRS-0203,2026-10-14T07:08:00Z,authentication,10.0.6.177,asset-03,medium,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0074,2026-10-13T06:11:00Z,endpoint,203.0.113.164,asset-17,critical,Malware behavior detected and process quarantined,suspicious
+TRS-0110,2026-10-04T19:33:00Z,endpoint,203.0.113.91,asset-03,critical,PowerShell launched with encoded command and hidden window,suspicious
+TRS-0118,2026-10-07T07:53:00Z,authentication,203.0.113.155,asset-01,medium,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0166,2026-10-14T09:49:00Z,backup,10.0.4.157,asset-12,low,Scheduled backup completed successfully,normal
+TRS-0220,2026-10-01T05:38:00Z,authentication,10.0.4.165,asset-04,critical,Authentication attempts against many user accounts,suspicious
+TRS-0119,2026-10-13T14:31:00Z,access,185.199.59.92,asset-19,medium,Privilege escalation detected for an account without approval,suspicious
+TRS-0225,2026-10-02T01:18:00Z,data,203.0.113.67,asset-06,critical,Large volume of sensitive files copied to removable media,suspicious
+TRS-0069,2026-10-05T20:03:00Z,email,10.0.4.138,asset-02,high,Suspicious attachment blocked by endpoint protection,suspicious
+TRS-0067,2026-10-04T01:06:00Z,endpoint,10.0.8.27,asset-05,high,Malware behavior detected and process quarantined,suspicious
+TRS-0152,2026-10-13T07:18:00Z,authentication,203.0.113.58,asset-19,medium,Multiple failed login attempts followed by a successful login,suspicious
+TRN-0001,2026-10-01T23:17:00Z,network,10.0.4.59,asset-05,medium,Routine HTTPS connection to approved business service,normal
+TRS-0136,2026-10-10T01:36:00Z,endpoint,203.0.113.174,asset-14,high,Malware behavior detected and process quarantined,suspicious
+TRS-0105,2026-10-12T11:10:00Z,network,10.0.8.49,asset-02,medium,Outbound connection to a known malicious command and control address,suspicious
+TRN-0062,2026-10-11T06:25:00Z,authentication,10.0.6.73,asset-03,info,Successful login from a known device,normal
+TRS-0213,2026-10-12T11:58:00Z,network,10.0.6.244,asset-19,high,Unusual data exfiltration pattern to an external host,suspicious
+TRN-0140,2026-10-09T04:59:00Z,system,10.0.5.114,asset-16,low,Routine system health check completed,normal
+TRN-0127,2026-10-15T08:50:00Z,access,10.0.4.110,asset-04,medium,User accessed an authorized internal application,normal
+TRN-0205,2026-10-05T22:48:00Z,endpoint,10.0.5.237,asset-11,info,Scheduled software update completed successfully,normal
+TRN-0226,2026-10-02T15:28:00Z,backup,10.0.5.205,asset-09,medium,Scheduled backup completed successfully,normal
+TRN-0038,2026-10-15T07:10:00Z,network,10.0.7.126,asset-16,low,Routine HTTPS connection to approved business service,normal
+TRS-0081,2026-10-02T18:07:00Z,email,10.0.4.148,asset-05,high,Suspicious attachment blocked by endpoint protection,suspicious
+TRN-0222,2026-10-09T16:12:00Z,network,10.0.6.91,asset-05,low,Routine HTTPS connection to approved business service,normal
+TRS-0066,2026-10-05T04:06:00Z,network,185.199.158.190,asset-17,high,Unusual data exfiltration pattern to an external host,suspicious
+TRN-0159,2026-10-03T05:05:00Z,endpoint,10.0.7.160,asset-08,info,Scheduled software update completed successfully,normal
+TRS-0237,2026-10-13T06:08:00Z,endpoint,10.0.7.53,asset-05,medium,PowerShell launched with encoded command and hidden window,suspicious
+TRS-0146,2026-10-10T12:37:00Z,dns,185.199.30.90,asset-10,medium,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0205,2026-10-01T14:03:00Z,authentication,10.0.7.212,asset-13,critical,Login from an unusual geographic location outside normal hours,suspicious
+TRS-0120,2026-10-02T19:18:00Z,dns,203.0.113.183,asset-05,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0129,2026-10-08T10:11:00Z,endpoint,10.0.6.76,asset-16,medium,PowerShell launched with encoded command and hidden window,suspicious
+TRN-0237,2026-10-05T17:24:00Z,network,10.0.6.210,asset-05,medium,Routine HTTPS connection to approved business service,normal
+TRS-0035,2026-10-13T13:52:00Z,dns,185.199.148.19,asset-15,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0232,2026-10-12T14:28:00Z,access,10.0.3.95,asset-12,info,User accessed an authorized internal application,normal
+TRS-0139,2026-10-14T23:09:00Z,authentication,185.199.90.80,asset-17,critical,Login from an unusual geographic location outside normal hours,suspicious
+TRS-0235,2026-10-09T21:55:00Z,dns,203.0.113.147,asset-03,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0038,2026-10-15T09:54:00Z,firewall,10.0.5.34,asset-10,medium,Repeated port scanning detected from external source,suspicious
+TRN-0139,2026-10-10T15:40:00Z,email,10.0.8.196,asset-02,low,Email delivered with no suspicious attachment detected,normal
+TRS-0130,2026-10-06T12:17:00Z,endpoint,10.0.6.31,asset-07,medium,PowerShell launched with encoded command and hidden window,suspicious
+TRS-0093,2026-10-04T13:19:00Z,firewall,10.0.3.162,asset-14,medium,Repeated port scanning detected from external source,suspicious
+TRN-0018,2026-10-13T21:27:00Z,endpoint,10.0.2.100,asset-13,medium,Scheduled software update completed successfully,normal
+TRS-0082,2026-10-14T16:28:00Z,email,10.0.8.25,asset-15,high,Suspicious attachment blocked by endpoint protection,suspicious
+TRN-0078,2026-10-03T22:33:00Z,access,10.0.8.14,asset-18,low,User accessed an authorized internal application,normal
+TRS-0046,2026-10-14T10:59:00Z,network,185.199.148.185,asset-16,medium,Outbound connection to a known malicious command and control address,suspicious
+TRS-0058,2026-10-12T03:12:00Z,authentication,203.0.113.81,asset-07,critical,Authentication attempts against many user accounts,suspicious
+TRN-0067,2026-10-06T13:04:00Z,access,10.0.6.161,asset-11,medium,User accessed an authorized internal application,normal
+TRS-0085,2026-10-15T02:59:00Z,authentication,185.199.121.9,asset-14,critical,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0033,2026-10-04T04:15:00Z,authentication,10.0.6.143,asset-12,critical,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0085,2026-10-07T10:34:00Z,dns,10.0.8.108,asset-02,low,DNS query to a common business domain,normal
+TRS-0051,2026-10-10T03:08:00Z,endpoint,203.0.113.101,asset-18,critical,Malware behavior detected and process quarantined,suspicious
+TRS-0018,2026-10-12T15:40:00Z,data,203.0.113.35,asset-02,critical,Large volume of sensitive files copied to removable media,suspicious
+TRS-0028,2026-10-09T11:25:00Z,network,185.199.81.167,asset-01,medium,Outbound connection to a known malicious command and control address,suspicious
+TRN-0230,2026-10-06T19:30:00Z,access,10.0.3.247,asset-02,info,User accessed an authorized internal application,normal
+TRS-0234,2026-10-06T17:26:00Z,endpoint,185.199.249.194,asset-13,medium,Malware behavior detected and process quarantined,suspicious
+TRS-0128,2026-10-06T13:52:00Z,data,203.0.113.167,asset-20,medium,Large volume of sensitive files copied to removable media,suspicious
+TRN-0183,2026-10-14T14:05:00Z,network,10.0.4.166,asset-20,low,Routine HTTPS connection to approved business service,normal
+TRS-0219,2026-10-05T23:44:00Z,dns,10.0.1.244,asset-19,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0090,2026-10-14T14:58:00Z,endpoint,10.0.3.161,asset-18,low,Scheduled software update completed successfully,normal
+TRS-0144,2026-10-12T06:13:00Z,authentication,185.199.72.193,asset-18,high,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0184,2026-10-12T03:49:00Z,access,10.0.7.71,asset-03,critical,Privilege escalation detected for an account without approval,suspicious
+TRS-0131,2026-10-03T21:49:00Z,firewall,10.0.8.243,asset-07,critical,Repeated port scanning detected from external source,suspicious
+TRN-0143,2026-10-11T04:31:00Z,network,10.0.5.132,asset-09,info,Routine HTTPS connection to approved business service,normal
+TRS-0008,2026-10-15T11:59:00Z,data,203.0.113.14,asset-08,critical,Large volume of sensitive files copied to removable media,suspicious
+TRS-0161,2026-10-12T08:44:00Z,firewall,203.0.113.95,asset-11,medium,Repeated port scanning detected from external source,suspicious
+TRN-0107,2026-10-13T08:21:00Z,email,10.0.5.227,asset-20,medium,Email delivered with no suspicious attachment detected,normal
+TRS-0059,2026-10-13T19:58:00Z,firewall,185.199.121.224,asset-17,high,Repeated port scanning detected from external source,suspicious
+TRN-0186,2026-10-13T19:00:00Z,endpoint,10.0.5.221,asset-05,low,Scheduled software update completed successfully,normal
+TRS-0095,2026-10-07T05:48:00Z,access,10.0.4.78,asset-05,critical,Privilege escalation detected for an account without approval,suspicious
+TRS-0017,2026-10-13T10:08:00Z,network,10.0.6.210,asset-06,medium,Unusual data exfiltration pattern to an external host,suspicious
+TRS-0197,2026-10-11T04:15:00Z,dns,203.0.113.218,asset-11,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0013,2026-10-14T01:14:00Z,email,10.0.1.208,asset-11,info,Email delivered with no suspicious attachment detected,normal
+TRS-0078,2026-10-09T22:49:00Z,endpoint,10.0.5.96,asset-08,high,Malware behavior detected and process quarantined,suspicious
+TRS-0044,2026-10-12T11:25:00Z,email,185.199.34.195,asset-15,high,Suspicious attachment blocked by endpoint protection,suspicious
+TRS-0063,2026-10-08T10:30:00Z,network,185.199.90.144,asset-19,medium,Unusual data exfiltration pattern to an external host,suspicious
+TRS-0103,2026-10-12T13:18:00Z,authentication,10.0.4.99,asset-08,critical,Authentication attempts against many user accounts,suspicious
+TRS-0032,2026-10-05T09:54:00Z,firewall,203.0.113.182,asset-17,high,Repeated port scanning detected from external source,suspicious
+TRN-0032,2026-10-11T15:13:00Z,system,10.0.3.187,asset-19,medium,Routine system health check completed,normal
+TRN-0212,2026-10-11T21:37:00Z,system,10.0.8.136,asset-10,low,Routine system health check completed,normal
+TRS-0089,2026-10-04T23:48:00Z,access,185.199.29.9,asset-08,high,Privilege escalation detected for an account without approval,suspicious
+TRN-0006,2026-10-07T03:22:00Z,network,10.0.6.156,asset-09,low,Routine HTTPS connection to approved business service,normal
+TRN-0055,2026-10-09T01:53:00Z,endpoint,10.0.6.151,asset-18,low,Scheduled software update completed successfully,normal
+TRS-0176,2026-10-04T15:40:00Z,authentication,203.0.113.136,asset-05,critical,Login from an unusual geographic location outside normal hours,suspicious
+TRS-0189,2026-10-10T11:07:00Z,authentication,185.199.129.173,asset-17,high,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0059,2026-10-01T05:47:00Z,dns,10.0.6.202,asset-14,medium,DNS query to a common business domain,normal
+TRN-0235,2026-10-14T04:21:00Z,authentication,10.0.2.151,asset-05,info,MFA challenge passed successfully,normal
+TRS-0175,2026-10-10T16:12:00Z,firewall,185.199.192.101,asset-16,critical,Repeated port scanning detected from external source,suspicious
+TRN-0169,2026-10-06T23:26:00Z,system,10.0.3.53,asset-05,medium,Routine system health check completed,normal
+TRS-0150,2026-10-10T01:55:00Z,data,185.199.92.244,asset-13,medium,Large volume of sensitive files copied to removable media,suspicious
+TRN-0092,2026-10-03T01:16:00Z,backup,10.0.7.85,asset-07,info,Scheduled backup completed successfully,normal
+TRS-0050,2026-10-04T11:35:00Z,firewall,10.0.8.197,asset-09,medium,Repeated port scanning detected from external source,suspicious
+TRS-0041,2026-10-04T18:26:00Z,endpoint,10.0.8.229,asset-18,critical,Malware behavior detected and process quarantined,suspicious
+TRN-0035,2026-10-01T12:46:00Z,network,10.0.6.206,asset-04,low,Routine HTTPS connection to approved business service,normal
+TRN-0201,2026-10-05T19:19:00Z,authentication,10.0.6.28,asset-19,medium,Successful login from a known device,normal
+TRN-0087,2026-10-01T11:19:00Z,backup,10.0.7.220,asset-14,medium,Scheduled backup completed successfully,normal
+TRN-0135,2026-10-07T10:20:00Z,email,10.0.2.221,asset-06,info,Email delivered with no suspicious attachment detected,normal
+TRS-0064,2026-10-07T12:52:00Z,firewall,185.199.89.245,asset-10,medium,Repeated port scanning detected from external source,suspicious
+TRS-0079,2026-10-08T04:29:00Z,network,10.0.6.108,asset-18,critical,Outbound connection to a known malicious command and control address,suspicious
+TRS-0195,2026-10-02T01:58:00Z,access,203.0.113.217,asset-15,medium,Privilege escalation detected for an account without approval,suspicious
+TRN-0075,2026-10-03T00:02:00Z,access,10.0.4.123,asset-20,low,User accessed an authorized internal application,normal
+TRS-0006,2026-10-14T08:03:00Z,network,185.199.165.124,asset-17,high,Outbound connection to a known malicious command and control address,suspicious
+TRN-0012,2026-10-03T14:24:00Z,access,10.0.5.238,asset-18,low,User accessed an authorized internal application,normal
+TRS-0153,2026-10-09T16:07:00Z,data,185.199.147.30,asset-15,medium,Large volume of sensitive files copied to removable media,suspicious
+TRN-0043,2026-10-02T19:04:00Z,endpoint,10.0.4.105,asset-04,medium,Scheduled software update completed successfully,normal
+TRN-0079,2026-10-08T04:51:00Z,network,10.0.8.172,asset-17,medium,Routine HTTPS connection to approved business service,normal
+TRS-0021,2026-10-13T11:27:00Z,authentication,203.0.113.191,asset-11,high,Login from an unusual geographic location outside normal hours,suspicious
+TRS-0199,2026-10-06T13:07:00Z,data,203.0.113.247,asset-15,critical,Large volume of sensitive files copied to removable media,suspicious
+TRS-0185,2026-10-10T20:04:00Z,network,203.0.113.131,asset-19,high,Unusual data exfiltration pattern to an external host,suspicious
+TRN-0027,2026-10-09T19:27:00Z,system,10.0.4.239,asset-18,medium,Routine system health check completed,normal
+TRS-0218,2026-10-07T20:31:00Z,network,10.0.6.59,asset-19,high,Unusual data exfiltration pattern to an external host,suspicious
+TRN-0080,2026-10-06T14:39:00Z,authentication,10.0.7.214,asset-18,info,MFA challenge passed successfully,normal
+TRS-0102,2026-10-07T01:36:00Z,email,203.0.113.190,asset-18,medium,Suspicious attachment blocked by endpoint protection,suspicious
+TRN-0178,2026-10-02T03:15:00Z,backup,10.0.3.101,asset-15,info,Scheduled backup completed successfully,normal
+TRN-0058,2026-10-12T04:59:00Z,authentication,10.0.4.223,asset-06,low,MFA challenge passed successfully,normal
+TRS-0200,2026-10-02T05:51:00Z,authentication,203.0.113.212,asset-05,high,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0161,2026-10-15T14:57:00Z,authentication,10.0.5.175,asset-18,low,Successful login from a known device,normal
+TRN-0194,2026-10-07T19:33:00Z,email,10.0.5.118,asset-17,medium,Email delivered with no suspicious attachment detected,normal
+TRN-0174,2026-10-11T23:43:00Z,email,10.0.5.151,asset-13,medium,Email delivered with no suspicious attachment detected,normal
+TRS-0100,2026-10-07T07:35:00Z,endpoint,10.0.7.121,asset-12,critical,PowerShell launched with encoded command and hidden window,suspicious
+TRN-0049,2026-10-03T14:53:00Z,system,10.0.5.158,asset-17,low,Routine system health check completed,normal
+TRS-0071,2026-10-15T01:00:00Z,access,203.0.113.155,asset-10,critical,Privilege escalation detected for an account without approval,suspicious
+TRN-0083,2026-10-04T08:21:00Z,system,10.0.6.230,asset-18,low,Routine system health check completed,normal
+TRS-0084,2026-10-14T00:47:00Z,access,203.0.113.19,asset-03,medium,Privilege escalation detected for an account without approval,suspicious
+TRN-0096,2026-10-04T04:30:00Z,endpoint,10.0.2.146,asset-07,info,Scheduled software update completed successfully,normal
+TRN-0188,2026-10-10T10:01:00Z,access,10.0.3.69,asset-02,low,User accessed an authorized internal application,normal
+TRS-0087,2026-10-07T16:08:00Z,firewall,185.199.187.251,asset-10,critical,Repeated port scanning detected from external source,suspicious
+TRN-0137,2026-10-02T10:16:00Z,backup,10.0.6.31,asset-13,medium,Scheduled backup completed successfully,normal
+TRN-0010,2026-10-08T20:53:00Z,system,10.0.6.43,asset-12,info,Routine system health check completed,normal
+TRN-0218,2026-10-05T03:25:00Z,dns,10.0.1.249,asset-11,low,DNS query to a common business domain,normal
+TRS-0190,2026-10-02T14:55:00Z,dns,185.199.73.199,asset-18,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0123,2026-10-07T09:36:00Z,authentication,10.0.1.158,asset-04,low,MFA challenge passed successfully,normal
+TRN-0213,2026-10-07T19:03:00Z,access,10.0.1.54,asset-10,low,User accessed an authorized internal application,normal
+TRN-0104,2026-10-07T23:37:00Z,backup,10.0.5.84,asset-08,low,Scheduled backup completed successfully,normal
+TRS-0198,2026-10-05T07:04:00Z,data,185.199.242.52,asset-06,critical,Large volume of sensitive files copied to removable media,suspicious
+TRN-0220,2026-10-07T18:25:00Z,access,10.0.2.103,asset-10,medium,User accessed an authorized internal application,normal
+TRS-0088,2026-10-12T17:27:00Z,endpoint,203.0.113.211,asset-12,high,Malware behavior detected and process quarantined,suspicious
+TRS-0026,2026-10-14T19:43:00Z,network,185.199.201.113,asset-12,critical,Outbound connection to a known malicious command and control address,suspicious
+TRS-0168,2026-10-08T02:08:00Z,endpoint,185.199.152.58,asset-11,high,PowerShell launched with encoded command and hidden window,suspicious
+TRN-0023,2026-10-03T11:48:00Z,access,10.0.3.140,asset-17,low,User accessed an authorized internal application,normal
+TRS-0180,2026-10-15T06:51:00Z,firewall,10.0.7.152,asset-03,critical,Repeated port scanning detected from external source,suspicious
+TRS-0177,2026-10-07T11:34:00Z,authentication,185.199.175.45,asset-01,medium,Authentication attempts against many user accounts,suspicious
+TRN-0202,2026-10-03T21:30:00Z,access,10.0.4.218,asset-04,info,User accessed an authorized internal application,normal
+TRN-0126,2026-10-01T07:18:00Z,system,10.0.5.181,asset-15,low,Routine system health check completed,normal
+TRN-0041,2026-10-01T18:47:00Z,access,10.0.1.193,asset-11,low,User accessed an authorized internal application,normal
+TRN-0196,2026-10-06T14:25:00Z,dns,10.0.7.188,asset-04,info,DNS query to a common business domain,normal
+TRN-0148,2026-10-07T14:59:00Z,firewall,10.0.6.224,asset-07,medium,Firewall allowed approved outbound traffic,normal
+TRN-0044,2026-10-10T19:02:00Z,access,10.0.2.109,asset-19,medium,User accessed an authorized internal application,normal
+TRS-0049,2026-10-03T08:46:00Z,dns,203.0.113.104,asset-02,medium,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0195,2026-10-02T22:07:00Z,dns,10.0.4.112,asset-15,low,DNS query to a common business domain,normal
+TRN-0054,2026-10-09T22:27:00Z,backup,10.0.1.30,asset-03,medium,Scheduled backup completed successfully,normal
+TRN-0071,2026-10-09T00:19:00Z,dns,10.0.5.55,asset-14,medium,DNS query to a common business domain,normal
+TRS-0214,2026-10-04T15:34:00Z,authentication,185.199.80.45,asset-08,medium,Authentication attempts against many user accounts,suspicious
+TRN-0002,2026-10-11T23:57:00Z,network,10.0.2.153,asset-14,low,Routine HTTPS connection to approved business service,normal
+TRS-0122,2026-10-06T08:06:00Z,data,10.0.7.116,asset-18,medium,Large volume of sensitive files copied to removable media,suspicious
+TRN-0163,2026-10-08T09:12:00Z,system,10.0.7.220,asset-16,low,Routine system health check completed,normal
+TRN-0231,2026-10-13T10:45:00Z,network,10.0.2.131,asset-06,low,Routine HTTPS connection to approved business service,normal
+TRS-0030,2026-10-05T22:58:00Z,authentication,185.199.126.52,asset-15,high,Authentication attempts against many user accounts,suspicious
+TRN-0162,2026-10-08T11:37:00Z,network,10.0.5.165,asset-14,medium,Routine HTTPS connection to approved business service,normal
+TRN-0086,2026-10-07T18:44:00Z,dns,10.0.1.221,asset-19,info,DNS query to a common business domain,normal
+TRN-0125,2026-10-03T00:26:00Z,network,10.0.8.178,asset-20,info,Routine HTTPS connection to approved business service,normal
+TRN-0021,2026-10-08T00:46:00Z,endpoint,10.0.5.250,asset-17,low,Scheduled software update completed successfully,normal
+TRN-0200,2026-10-11T03:26:00Z,email,10.0.6.225,asset-14,medium,Email delivered with no suspicious attachment detected,normal
+TRS-0170,2026-10-15T09:08:00Z,email,10.0.3.166,asset-05,high,Suspicious attachment blocked by endpoint protection,suspicious
+TRS-0042,2026-10-05T15:15:00Z,endpoint,203.0.113.176,asset-03,medium,Malware behavior detected and process quarantined,suspicious
+TRN-0221,2026-10-04T10:49:00Z,email,10.0.3.21,asset-17,medium,Email delivered with no suspicious attachment detected,normal
+TRN-0081,2026-10-12T15:28:00Z,endpoint,10.0.5.194,asset-08,medium,Scheduled software update completed successfully,normal
+TRS-0016,2026-10-12T00:22:00Z,access,10.0.4.189,asset-04,medium,Privilege escalation detected for an account without approval,suspicious
+TRN-0118,2026-10-02T00:36:00Z,backup,10.0.5.122,asset-16,info,Scheduled backup completed successfully,normal
+TRN-0233,2026-10-07T10:43:00Z,dns,10.0.1.204,asset-11,low,DNS query to a common business domain,normal
+TRS-0186,2026-10-03T08:49:00Z,email,10.0.2.60,asset-17,high,Suspicious attachment blocked by endpoint protection,suspicious
+TRS-0123,2026-10-02T00:05:00Z,dns,203.0.113.24,asset-01,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0105,2026-10-15T14:15:00Z,system,10.0.8.147,asset-20,medium,Routine system health check completed,normal
+TRS-0039,2026-10-02T16:41:00Z,firewall,10.0.3.45,asset-20,medium,Repeated port scanning detected from external source,suspicious
+TRN-0052,2026-10-09T15:16:00Z,system,10.0.1.25,asset-14,info,Routine system health check completed,normal
+TRN-0036,2026-10-04T17:28:00Z,access,10.0.3.110,asset-06,info,User accessed an authorized internal application,normal
+TRN-0039,2026-10-15T01:10:00Z,dns,10.0.7.2,asset-13,info,DNS query to a common business domain,normal
+TRN-0219,2026-10-08T22:58:00Z,authentication,10.0.6.24,asset-14,low,MFA challenge passed successfully,normal
+TRS-0010,2026-10-15T15:44:00Z,access,10.0.8.116,asset-01,high,Privilege escalation detected for an account without approval,suspicious
+TRS-0055,2026-10-06T10:43:00Z,authentication,10.0.5.205,asset-01,medium,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0112,2026-10-07T12:35:00Z,dns,185.199.122.15,asset-03,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0062,2026-10-09T09:14:00Z,access,203.0.113.252,asset-07,medium,Privilege escalation detected for an account without approval,suspicious
+TRS-0236,2026-10-01T16:36:00Z,network,203.0.113.205,asset-06,high,Unusual data exfiltration pattern to an external host,suspicious
+TRS-0047,2026-10-08T09:31:00Z,data,203.0.113.242,asset-08,high,Large volume of sensitive files copied to removable media,suspicious
+TRN-0175,2026-10-02T21:14:00Z,email,10.0.8.8,asset-20,medium,Email delivered with no suspicious attachment detected,normal
+TRN-0223,2026-10-03T08:12:00Z,network,10.0.3.156,asset-05,medium,Routine HTTPS connection to approved business service,normal
+TRN-0031,2026-10-15T01:55:00Z,network,10.0.6.20,asset-17,low,Routine HTTPS connection to approved business service,normal
+TRN-0129,2026-10-03T09:38:00Z,authentication,10.0.5.114,asset-04,info,Successful login from a known device,normal
+TRS-0036,2026-10-09T11:08:00Z,endpoint,185.199.225.213,asset-14,medium,Malware behavior detected and process quarantined,suspicious
+TRN-0228,2026-10-06T09:04:00Z,authentication,10.0.2.159,asset-20,medium,Successful login from a known device,normal
+TRN-0121,2026-10-02T07:07:00Z,system,10.0.7.157,asset-20,medium,Routine system health check completed,normal
+TRN-0037,2026-10-04T02:28:00Z,backup,10.0.2.14,asset-18,low,Scheduled backup completed successfully,normal
+TRN-0028,2026-10-12T09:25:00Z,access,10.0.6.114,asset-17,info,User accessed an authorized internal application,normal
+TRS-0001,2026-10-14T23:56:00Z,firewall,10.0.6.226,asset-05,medium,Repeated port scanning detected from external source,suspicious
+TRN-0061,2026-10-04T14:22:00Z,access,10.0.5.212,asset-08,low,User accessed an authorized internal application,normal
+TRS-0145,2026-10-06T06:29:00Z,email,10.0.8.137,asset-11,medium,Suspicious attachment blocked by endpoint protection,suspicious
+TRS-0037,2026-10-14T03:33:00Z,authentication,10.0.3.84,asset-08,critical,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0076,2026-10-04T14:48:00Z,dns,10.0.5.151,asset-19,high,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0137,2026-10-02T08:14:00Z,authentication,203.0.113.133,asset-13,critical,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0215,2026-10-01T16:30:00Z,endpoint,185.199.1.85,asset-11,medium,PowerShell launched with encoded command and hidden window,suspicious
+TRN-0216,2026-10-02T12:55:00Z,email,10.0.1.113,asset-01,info,Email delivered with no suspicious attachment detected,normal
+TRN-0158,2026-10-06T13:09:00Z,email,10.0.4.137,asset-14,medium,Email delivered with no suspicious attachment detected,normal
+TRS-0099,2026-10-04T06:47:00Z,authentication,185.199.31.192,asset-20,medium,Multiple failed login attempts followed by a successful login,suspicious
+TRN-0182,2026-10-09T20:22:00Z,email,10.0.1.103,asset-09,low,Email delivered with no suspicious attachment detected,normal
+TRS-0045,2026-10-08T07:09:00Z,access,10.0.7.223,asset-14,high,Privilege escalation detected for an account without approval,suspicious
+TRS-0182,2026-10-10T01:19:00Z,authentication,185.199.171.190,asset-05,medium,Authentication attempts against many user accounts,suspicious
+TRN-0172,2026-10-03T07:55:00Z,network,10.0.7.249,asset-18,info,Routine HTTPS connection to approved business service,normal
+TRN-0094,2026-10-12T17:03:00Z,authentication,10.0.6.59,asset-03,medium,Successful login from a known device,normal
+TRS-0162,2026-10-14T23:05:00Z,authentication,185.199.188.249,asset-18,critical,Multiple failed login attempts followed by a successful login,suspicious
+TRN-0066,2026-10-01T22:27:00Z,system,10.0.1.135,asset-18,medium,Routine system health check completed,normal
+TRS-0002,2026-10-03T05:11:00Z,dns,203.0.113.198,asset-02,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0050,2026-10-05T21:06:00Z,firewall,10.0.3.69,asset-04,low,Firewall allowed approved outbound traffic,normal
+TRN-0151,2026-10-10T10:55:00Z,firewall,10.0.2.225,asset-15,low,Firewall allowed approved outbound traffic,normal
+TRN-0093,2026-10-06T12:17:00Z,email,10.0.7.66,asset-03,info,Email delivered with no suspicious attachment detected,normal
+TRN-0088,2026-10-13T19:57:00Z,firewall,10.0.4.126,asset-08,info,Firewall allowed approved outbound traffic,normal
+TRS-0193,2026-10-06T20:53:00Z,firewall,10.0.6.2,asset-13,medium,Repeated port scanning detected from external source,suspicious
+TRS-0165,2026-10-15T05:28:00Z,authentication,10.0.7.53,asset-05,medium,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0184,2026-10-13T10:15:00Z,authentication,10.0.3.203,asset-19,low,Successful login from a known device,normal
+TRS-0238,2026-10-06T23:58:00Z,access,203.0.113.23,asset-18,critical,Privilege escalation detected for an account without approval,suspicious
+TRS-0034,2026-10-03T19:56:00Z,firewall,10.0.7.185,asset-16,medium,Repeated port scanning detected from external source,suspicious
+TRS-0221,2026-10-06T23:04:00Z,network,10.0.6.44,asset-03,medium,Outbound connection to a known malicious command and control address,suspicious
+TRN-0176,2026-10-15T19:14:00Z,email,10.0.2.164,asset-15,medium,Email delivered with no suspicious attachment detected,normal
+TRN-0098,2026-10-10T00:59:00Z,network,10.0.5.149,asset-13,info,Routine HTTPS connection to approved business service,normal
+TRN-0019,2026-10-09T08:35:00Z,backup,10.0.1.176,asset-04,medium,Scheduled backup completed successfully,normal
+TRN-0199,2026-10-13T04:35:00Z,email,10.0.1.152,asset-18,medium,Email delivered with no suspicious attachment detected,normal
+TRN-0208,2026-10-03T11:19:00Z,email,10.0.6.200,asset-19,medium,Email delivered with no suspicious attachment detected,normal
+TRN-0215,2026-10-03T04:24:00Z,dns,10.0.4.130,asset-18,medium,DNS query to a common business domain,normal
+TRS-0126,2026-10-05T15:50:00Z,dns,10.0.4.186,asset-16,medium,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0152,2026-10-15T14:00:00Z,firewall,10.0.3.106,asset-05,low,Firewall allowed approved outbound traffic,normal
+TRS-0015,2026-10-09T16:35:00Z,firewall,10.0.8.13,asset-13,critical,Repeated port scanning detected from external source,suspicious
+TRN-0014,2026-10-02T06:58:00Z,system,10.0.6.56,asset-16,info,Routine system health check completed,normal
+TRN-0072,2026-10-11T10:29:00Z,authentication,10.0.8.115,asset-07,medium,MFA challenge passed successfully,normal
+TRN-0164,2026-10-07T18:22:00Z,access,10.0.5.181,asset-10,low,User accessed an authorized internal application,normal
+TRS-0164,2026-10-14T15:50:00Z,authentication,185.199.88.229,asset-15,high,Authentication attempts against many user accounts,suspicious
+TRS-0155,2026-10-14T02:28:00Z,email,10.0.4.55,asset-19,medium,Suspicious attachment blocked by endpoint protection,suspicious
+TRS-0138,2026-10-10T22:32:00Z,endpoint,203.0.113.7,asset-14,high,Malware behavior detected and process quarantined,suspicious
+TRS-0174,2026-10-10T23:38:00Z,authentication,10.0.1.219,asset-10,high,Authentication attempts against many user accounts,suspicious
+TRN-0077,2026-10-04T04:41:00Z,dns,10.0.1.230,asset-04,info,DNS query to a common business domain,normal
+TRS-0181,2026-10-07T23:54:00Z,network,203.0.113.63,asset-04,critical,Unusual data exfiltration pattern to an external host,suspicious
+TRS-0073,2026-10-12T14:41:00Z,network,203.0.113.48,asset-10,medium,Outbound connection to a known malicious command and control address,suspicious
+TRN-0134,2026-10-07T20:52:00Z,authentication,10.0.8.250,asset-03,info,MFA challenge passed successfully,normal
+TRS-0101,2026-10-06T16:56:00Z,access,203.0.113.26,asset-07,critical,Privilege escalation detected for an account without approval,suspicious
+TRN-0167,2026-10-10T08:43:00Z,access,10.0.3.162,asset-04,medium,User accessed an authorized internal application,normal
+TRS-0227,2026-10-01T13:41:00Z,network,185.199.43.156,asset-04,critical,Unusual data exfiltration pattern to an external host,suspicious
+TRS-0206,2026-10-07T21:27:00Z,authentication,203.0.113.55,asset-15,high,Multiple failed login attempts followed by a successful login,suspicious
+TRN-0033,2026-10-04T15:51:00Z,backup,10.0.7.50,asset-04,low,Scheduled backup completed successfully,normal
+TRS-0007,2026-10-02T05:17:00Z,access,203.0.113.132,asset-03,high,Privilege escalation detected for an account without approval,suspicious
+TRN-0056,2026-10-03T01:19:00Z,dns,10.0.6.232,asset-02,info,DNS query to a common business domain,normal
+TRN-0153,2026-10-13T08:21:00Z,backup,10.0.7.168,asset-03,info,Scheduled backup completed successfully,normal
+TRN-0145,2026-10-12T04:55:00Z,firewall,10.0.2.72,asset-14,info,Firewall allowed approved outbound traffic,normal
+TRS-0097,2026-10-02T14:54:00Z,endpoint,203.0.113.138,asset-13,medium,Malware behavior detected and process quarantined,suspicious
+TRS-0135,2026-10-10T20:58:00Z,firewall,10.0.4.170,asset-12,high,Repeated port scanning detected from external source,suspicious
+TRS-0048,2026-10-06T01:03:00Z,authentication,10.0.8.75,asset-01,high,Authentication attempts against many user accounts,suspicious
+TRS-0173,2026-10-06T13:20:00Z,dns,185.199.203.36,asset-08,medium,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0022,2026-10-12T15:23:00Z,data,185.199.237.205,asset-14,high,Large volume of sensitive files copied to removable media,suspicious
+TRN-0004,2026-10-07T07:28:00Z,firewall,10.0.5.209,asset-01,low,Firewall allowed approved outbound traffic,normal
+TRN-0053,2026-10-01T10:49:00Z,authentication,10.0.3.165,asset-09,low,Successful login from a known device,normal
+TRS-0060,2026-10-06T21:30:00Z,firewall,10.0.3.119,asset-11,medium,Repeated port scanning detected from external source,suspicious
+TRS-0143,2026-10-11T13:25:00Z,endpoint,10.0.4.117,asset-14,critical,Malware behavior detected and process quarantined,suspicious
+TRS-0080,2026-10-13T21:52:00Z,firewall,203.0.113.64,asset-17,medium,Repeated port scanning detected from external source,suspicious
+TRS-0027,2026-10-10T01:38:00Z,dns,203.0.113.116,asset-03,medium,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0155,2026-10-02T07:40:00Z,authentication,10.0.5.60,asset-03,info,MFA challenge passed successfully,normal
+TRN-0239,2026-10-05T05:13:00Z,email,10.0.6.244,asset-16,low,Email delivered with no suspicious attachment detected,normal
+TRN-0112,2026-10-07T23:35:00Z,email,10.0.6.92,asset-15,info,Email delivered with no suspicious attachment detected,normal
+TRS-0098,2026-10-10T01:55:00Z,authentication,185.199.19.49,asset-11,critical,Authentication attempts against many user accounts,suspicious
+TRN-0236,2026-10-11T22:42:00Z,system,10.0.7.35,asset-20,medium,Routine system health check completed,normal
+TRN-0179,2026-10-07T18:47:00Z,firewall,10.0.3.228,asset-14,medium,Firewall allowed approved outbound traffic,normal
+TRN-0193,2026-10-03T02:08:00Z,authentication,10.0.5.161,asset-19,medium,MFA challenge passed successfully,normal
+TRN-0217,2026-10-14T10:36:00Z,network,10.0.7.148,asset-13,medium,Routine HTTPS connection to approved business service,normal
+TRS-0147,2026-10-02T21:08:00Z,authentication,185.199.81.31,asset-12,medium,Authentication attempts against many user accounts,suspicious
+TRS-0090,2026-10-02T19:02:00Z,authentication,10.0.1.64,asset-02,critical,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0157,2026-10-15T00:02:00Z,system,10.0.6.205,asset-02,info,Routine system health check completed,normal
+TRS-0223,2026-10-13T03:46:00Z,access,203.0.113.99,asset-06,critical,Privilege escalation detected for an account without approval,suspicious
+TRN-0130,2026-10-12T12:17:00Z,system,10.0.8.114,asset-03,medium,Routine system health check completed,normal
+TRN-0115,2026-10-13T16:38:00Z,authentication,10.0.5.27,asset-07,info,MFA challenge passed successfully,normal
+TRS-0106,2026-10-14T02:52:00Z,authentication,185.199.172.13,asset-08,high,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0068,2026-10-15T05:26:00Z,firewall,10.0.8.124,asset-07,critical,Repeated port scanning detected from external source,suspicious
+TRS-0158,2026-10-14T16:57:00Z,access,203.0.113.25,asset-02,critical,Privilege escalation detected for an account without approval,suspicious
+TRS-0115,2026-10-11T01:11:00Z,authentication,185.199.238.218,asset-19,high,Authentication attempts against many user accounts,suspicious
+TRN-0068,2026-10-12T09:32:00Z,network,10.0.5.172,asset-14,info,Routine HTTPS connection to approved business service,normal
+TRS-0132,2026-10-14T22:04:00Z,access,203.0.113.204,asset-05,medium,Privilege escalation detected for an account without approval,suspicious
+TRN-0005,2026-10-06T08:09:00Z,dns,10.0.4.247,asset-11,low,DNS query to a common business domain,normal
+TRS-0207,2026-10-10T19:39:00Z,authentication,10.0.8.107,asset-16,high,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0023,2026-10-10T05:34:00Z,dns,10.0.2.85,asset-10,critical,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0210,2026-10-05T14:42:00Z,network,10.0.7.126,asset-20,info,Routine HTTPS connection to approved business service,normal
+TRS-0094,2026-10-01T11:41:00Z,data,203.0.113.202,asset-14,high,Large volume of sensitive files copied to removable media,suspicious
+TRS-0187,2026-10-14T00:15:00Z,authentication,185.199.12.121,asset-06,high,Multiple failed login attempts followed by a successful login,suspicious
+TRN-0106,2026-10-06T00:31:00Z,dns,10.0.6.48,asset-16,low,DNS query to a common business domain,normal
+TRS-0107,2026-10-03T00:13:00Z,network,10.0.1.160,asset-20,critical,Unusual data exfiltration pattern to an external host,suspicious
+TRN-0116,2026-10-06T05:19:00Z,access,10.0.1.183,asset-18,low,User accessed an authorized internal application,normal
+TRS-0092,2026-10-10T10:36:00Z,network,203.0.113.173,asset-05,medium,Unusual data exfiltration pattern to an external host,suspicious
+TRN-0114,2026-10-13T22:11:00Z,firewall,10.0.4.57,asset-16,info,Firewall allowed approved outbound traffic,normal
+TRN-0110,2026-10-08T00:05:00Z,backup,10.0.5.58,asset-13,medium,Scheduled backup completed successfully,normal
+TRS-0232,2026-10-09T12:11:00Z,endpoint,203.0.113.98,asset-02,critical,Malware behavior detected and process quarantined,suspicious
+TRS-0127,2026-10-04T14:06:00Z,authentication,10.0.7.87,asset-13,critical,Authentication attempts against many user accounts,suspicious
+TRS-0151,2026-10-11T15:26:00Z,firewall,185.199.176.126,asset-03,medium,Repeated port scanning detected from external source,suspicious
+TRN-0198,2026-10-02T02:53:00Z,backup,10.0.2.25,asset-14,low,Scheduled backup completed successfully,normal
+TRS-0159,2026-10-03T22:55:00Z,endpoint,185.199.34.64,asset-13,critical,Malware behavior detected and process quarantined,suspicious
+TRN-0146,2026-10-05T00:18:00Z,firewall,10.0.5.216,asset-19,medium,Firewall allowed approved outbound traffic,normal
+TRN-0047,2026-10-10T18:06:00Z,backup,10.0.2.139,asset-07,medium,Scheduled backup completed successfully,normal
+TRS-0113,2026-10-11T10:36:00Z,dns,10.0.2.231,asset-02,high,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0133,2026-10-13T05:30:00Z,authentication,10.0.8.236,asset-09,low,Successful login from a known device,normal
+TRN-0084,2026-10-03T07:24:00Z,endpoint,10.0.3.182,asset-07,low,Scheduled software update completed successfully,normal
+TRS-0239,2026-10-09T14:58:00Z,access,203.0.113.202,asset-05,high,Privilege escalation detected for an account without approval,suspicious
+TRN-0180,2026-10-14T15:39:00Z,network,10.0.7.242,asset-09,low,Routine HTTPS connection to approved business service,normal
+TRS-0043,2026-10-03T14:26:00Z,authentication,185.199.124.119,asset-11,medium,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0061,2026-10-11T23:43:00Z,email,203.0.113.178,asset-07,high,Suspicious attachment blocked by endpoint protection,suspicious
+TRS-0230,2026-10-05T21:40:00Z,authentication,185.199.154.123,asset-06,medium,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0091,2026-10-10T18:42:00Z,dns,10.0.1.23,asset-14,low,DNS query to a common business domain,normal
+TRN-0229,2026-10-08T18:35:00Z,dns,10.0.1.117,asset-19,medium,DNS query to a common business domain,normal
+TRS-0065,2026-10-06T14:41:00Z,authentication,10.0.4.53,asset-09,medium,Login from an unusual geographic location outside normal hours,suspicious
+TRS-0011,2026-10-05T06:53:00Z,authentication,203.0.113.241,asset-08,critical,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0208,2026-10-05T12:08:00Z,authentication,10.0.4.163,asset-01,critical,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0124,2026-10-05T21:05:00Z,access,10.0.3.63,asset-06,medium,User accessed an authorized internal application,normal
+TRN-0016,2026-10-12T18:27:00Z,system,10.0.7.94,asset-08,low,Routine system health check completed,normal
+TRS-0222,2026-10-11T23:56:00Z,endpoint,185.199.86.115,asset-03,critical,Malware behavior detected and process quarantined,suspicious
+TRN-0064,2026-10-03T18:16:00Z,system,10.0.1.29,asset-20,info,Routine system health check completed,normal
+TRS-0086,2026-10-08T12:24:00Z,dns,203.0.113.247,asset-04,high,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0204,2026-10-13T19:39:00Z,firewall,10.0.1.157,asset-09,low,Firewall allowed approved outbound traffic,normal
+TRS-0019,2026-10-01T06:56:00Z,endpoint,203.0.113.239,asset-18,critical,PowerShell launched with encoded command and hidden window,suspicious
+TRN-0238,2026-10-02T20:42:00Z,firewall,10.0.7.132,asset-12,low,Firewall allowed approved outbound traffic,normal
+TRN-0189,2026-10-09T03:47:00Z,dns,10.0.2.123,asset-15,info,DNS query to a common business domain,normal
+TRN-0141,2026-10-11T19:51:00Z,authentication,10.0.4.183,asset-06,info,Successful login from a known device,normal
+TRN-0102,2026-10-07T11:40:00Z,network,10.0.8.183,asset-05,info,Routine HTTPS connection to approved business service,normal
+TRS-0121,2026-10-13T20:09:00Z,network,185.199.190.100,asset-01,critical,Unusual data exfiltration pattern to an external host,suspicious
+TRN-0185,2026-10-14T17:13:00Z,network,10.0.4.210,asset-08,info,Routine HTTPS connection to approved business service,normal
+TRS-0212,2026-10-14T12:22:00Z,authentication,185.199.240.215,asset-19,critical,Authentication attempts against many user accounts,suspicious
+TRN-0234,2026-10-02T17:43:00Z,email,10.0.7.74,asset-09,medium,Email delivered with no suspicious attachment detected,normal
+TRN-0017,2026-10-08T02:48:00Z,firewall,10.0.1.222,asset-04,low,Firewall allowed approved outbound traffic,normal
+TRN-0128,2026-10-11T04:58:00Z,access,10.0.5.213,asset-05,low,User accessed an authorized internal application,normal
+TRN-0030,2026-10-10T07:00:00Z,access,10.0.2.183,asset-02,low,User accessed an authorized internal application,normal
+TRN-0103,2026-10-12T16:41:00Z,endpoint,10.0.5.159,asset-18,info,Scheduled software update completed successfully,normal
+TRN-0099,2026-10-02T18:44:00Z,access,10.0.4.28,asset-10,medium,User accessed an authorized internal application,normal
+TRS-0228,2026-10-04T13:44:00Z,endpoint,203.0.113.237,asset-10,high,PowerShell launched with encoded command and hidden window,suspicious
+TRN-0015,2026-10-03T08:08:00Z,backup,10.0.4.192,asset-18,medium,Scheduled backup completed successfully,normal
+TRS-0052,2026-10-04T19:32:00Z,network,185.199.103.129,asset-11,critical,Outbound connection to a known malicious command and control address,suspicious
+TRS-0029,2026-10-08T16:24:00Z,network,203.0.113.31,asset-15,high,Outbound connection to a known malicious command and control address,suspicious
+TRS-0160,2026-10-10T20:17:00Z,network,10.0.8.21,asset-03,critical,Outbound connection to a known malicious command and control address,suspicious
+TRN-0070,2026-10-11T23:57:00Z,dns,10.0.3.159,asset-19,info,DNS query to a common business domain,normal
+TRS-0226,2026-10-12T02:35:00Z,network,10.0.2.88,asset-20,critical,Outbound connection to a known malicious command and control address,suspicious
+TRS-0020,2026-10-01T20:12:00Z,access,10.0.1.223,asset-11,critical,Privilege escalation detected for an account without approval,suspicious
+TRS-0124,2026-10-07T02:46:00Z,dns,10.0.4.148,asset-06,medium,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0202,2026-10-09T23:35:00Z,data,185.199.64.25,asset-04,high,Large volume of sensitive files copied to removable media,suspicious
+TRN-0034,2026-10-06T13:26:00Z,dns,10.0.8.223,asset-02,medium,DNS query to a common business domain,normal
+TRN-0082,2026-10-13T16:31:00Z,system,10.0.4.72,asset-15,low,Routine system health check completed,normal
+TRS-0166,2026-10-03T08:05:00Z,access,10.0.2.97,asset-06,high,Privilege escalation detected for an account without approval,suspicious
+TRS-0024,2026-10-10T22:27:00Z,data,185.199.43.177,asset-12,medium,Large volume of sensitive files copied to removable media,suspicious
+TRN-0029,2026-10-04T07:04:00Z,network,10.0.6.7,asset-19,medium,Routine HTTPS connection to approved business service,normal
+TRN-0192,2026-10-11T03:31:00Z,dns,10.0.8.20,asset-03,info,DNS query to a common business domain,normal
+TRS-0025,2026-10-05T20:50:00Z,dns,10.0.7.95,asset-06,high,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0149,2026-10-12T20:59:00Z,firewall,185.199.45.143,asset-06,critical,Repeated port scanning detected from external source,suspicious
+TRS-0233,2026-10-08T08:14:00Z,data,10.0.1.40,asset-04,high,Large volume of sensitive files copied to removable media,suspicious
+TRS-0140,2026-10-08T03:28:00Z,email,203.0.113.116,asset-02,medium,Suspicious attachment blocked by endpoint protection,suspicious
+TRN-0209,2026-10-15T01:09:00Z,network,10.0.3.195,asset-20,low,Routine HTTPS connection to approved business service,normal
+TRN-0109,2026-10-08T17:48:00Z,dns,10.0.4.178,asset-16,medium,DNS query to a common business domain,normal
+TRS-0191,2026-10-06T06:18:00Z,authentication,203.0.113.78,asset-19,critical,Multiple failed login attempts followed by a successful login,suspicious
+TRN-0097,2026-10-13T11:10:00Z,system,10.0.2.201,asset-06,info,Routine system health check completed,normal
+TRN-0046,2026-10-11T20:19:00Z,endpoint,10.0.8.82,asset-03,low,Scheduled software update completed successfully,normal
+TRS-0091,2026-10-04T17:13:00Z,data,10.0.1.37,asset-10,high,Large volume of sensitive files copied to removable media,suspicious
+TRS-0070,2026-10-15T05:59:00Z,dns,203.0.113.215,asset-06,medium,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0214,2026-10-13T08:18:00Z,endpoint,10.0.6.32,asset-01,info,Scheduled software update completed successfully,normal
+TRS-0134,2026-10-07T17:32:00Z,authentication,185.199.237.236,asset-12,medium,Authentication attempts against many user accounts,suspicious
+TRS-0209,2026-10-06T15:34:00Z,network,203.0.113.89,asset-06,high,Unusual data exfiltration pattern to an external host,suspicious
+TRN-0165,2026-10-05T00:36:00Z,dns,10.0.1.235,asset-20,medium,DNS query to a common business domain,normal
+TRS-0183,2026-10-03T15:22:00Z,authentication,203.0.113.201,asset-05,medium,Multiple failed login attempts followed by a successful login,suspicious
+TRS-0157,2026-10-06T17:17:00Z,authentication,203.0.113.44,asset-10,medium,Authentication attempts against many user accounts,suspicious
+TRN-0227,2026-10-06T16:04:00Z,authentication,10.0.5.120,asset-15,low,Successful login from a known device,normal
+TRS-0141,2026-10-01T10:41:00Z,authentication,10.0.3.240,asset-08,medium,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0154,2026-10-07T10:40:00Z,firewall,10.0.8.225,asset-18,low,Firewall allowed approved outbound traffic,normal
+TRN-0069,2026-10-12T09:35:00Z,dns,10.0.3.51,asset-14,medium,DNS query to a common business domain,normal
+TRN-0117,2026-10-01T01:35:00Z,system,10.0.5.180,asset-05,medium,Routine system health check completed,normal
+TRN-0051,2026-10-03T08:18:00Z,firewall,10.0.4.185,asset-11,low,Firewall allowed approved outbound traffic,normal
+TRS-0111,2026-10-08T18:15:00Z,dns,185.199.254.179,asset-02,high,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0117,2026-10-13T23:08:00Z,dns,10.0.2.130,asset-12,high,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0012,2026-10-01T07:26:00Z,authentication,185.199.164.204,asset-16,medium,Login from an unusual geographic location outside normal hours,suspicious
+TRS-0192,2026-10-12T17:48:00Z,endpoint,203.0.113.39,asset-01,high,PowerShell launched with encoded command and hidden window,suspicious
+TRN-0144,2026-10-08T07:29:00Z,backup,10.0.3.100,asset-07,medium,Scheduled backup completed successfully,normal
+TRN-0160,2026-10-03T07:29:00Z,authentication,10.0.5.119,asset-09,medium,MFA challenge passed successfully,normal
+TRN-0156,2026-10-13T20:45:00Z,network,10.0.2.115,asset-06,medium,Routine HTTPS connection to approved business service,normal
+TRS-0167,2026-10-11T09:46:00Z,dns,185.199.180.194,asset-04,high,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRS-0179,2026-10-12T12:05:00Z,dns,185.199.164.138,asset-10,high,Repeated DNS requests to a newly registered suspicious domain,suspicious
+TRN-0173,2026-10-13T12:00:00Z,network,10.0.5.139,asset-04,info,Routine HTTPS connection to approved business service,normal
+TRN-0011,2026-10-11T08:44:00Z,access,10.0.2.157,asset-06,medium,User accessed an authorized internal application,normal
+TRN-0191,2026-10-05T14:41:00Z,firewall,10.0.1.17,asset-16,info,Firewall allowed approved outbound traffic,normal
+TRN-0138,2026-10-11T17:29:00Z,authentication,10.0.7.15,asset-07,medium,Successful login from a known device,normal
+TRS-0004,2026-10-04T09:51:00Z,firewall,10.0.4.96,asset-19,critical,Repeated port scanning detected from external source,suspicious
+TRS-0142,2026-10-09T05:21:00Z,network,203.0.113.246,asset-06,high,Outbound connection to a known malicious command and control address,suspicious
+TRN-0026,2026-10-13T04:08:00Z,firewall,10.0.8.244,asset-18,low,Firewall allowed approved outbound traffic,normal
+TRN-0122,2026-10-13T16:24:00Z,access,10.0.8.234,asset-15,info,User accessed an authorized internal application,normal
+TRS-0114,2026-10-15T22:56:00Z,endpoint,185.199.146.122,asset-09,medium,PowerShell launched with encoded command and hidden window,suspicious
+TRN-0170,2026-10-09T16:58:00Z,email,10.0.5.214,asset-06,info,Email delivered with no suspicious attachment detected,normal
+TRS-0240,2026-10-10T18:48:00Z,authentication,185.199.247.241,asset-10,medium,Authentication attempts against many user accounts,suspicious
+TRS-0216,2026-10-15T10:03:00Z,network,185.199.6.38,asset-17,critical,Outbound connection to a known malicious command and control address,suspicious
+TRN-0203,2026-10-06T03:48:00Z,firewall,10.0.5.148,asset-08,info,Firewall allowed approved outbound traffic,normal
+TRS-0229,2026-10-01T12:36:00Z,authentication,203.0.113.126,asset-01,critical,Login from an unusual geographic location outside normal hours,suspicious
+TRN-0206,2026-10-03T04:36:00Z,authentication,10.0.7.19,asset-05,medium,Successful login from a known device,normal
+TRS-0116,2026-10-14T12:59:00Z,network,203.0.113.42,asset-18,critical,Unusual data exfiltration pattern to an external host,suspicious
+TRS-0109,2026-10-01T16:52:00Z,access,185.199.179.173,asset-17,high,Privilege escalation detected for an account without approval,suspicious
+TRS-0231,2026-10-02T15:54:00Z,access,203.0.113.201,asset-09,high,Privilege escalation detected for an account without approval,suspicious
+TRS-0077,2026-10-11T11:44:00Z,access,203.0.113.171,asset-06,critical,Privilege escalation detected for an account without approval,suspicious
+TRN-0074,2026-10-06T02:52:00Z,authentication,10.0.4.174,asset-10,low,MFA challenge passed successfully,normal
+TRN-0207,2026-10-02T23:33:00Z,authentication,10.0.4.98,asset-14,info,Successful login from a known device,normal
+TRN-0142,2026-10-01T17:26:00Z,firewall,10.0.2.59,asset-04,info,Firewall allowed approved outbound traffic,normal
+TRN-0089,2026-10-08T00:24:00Z,dns,10.0.6.173,asset-13,medium,DNS query to a common business domain,normal
+TRN-0020,2026-10-13T08:49:00Z,firewall,10.0.6.30,asset-10,info,Firewall allowed approved outbound traffic,normal
+TRS-0003,2026-10-11T23:15:00Z,email,10.0.5.194,asset-15,high,Suspicious attachment blocked by endpoint protection,suspicious
+TRS-0072,2026-10-09T16:31:00Z,endpoint,185.199.228.241,asset-04,critical,Malware behavior detected and process quarantined,suspicious
+TRS-0053,2026-10-08T04:38:00Z,firewall,10.0.6.240,asset-11,high,Repeated port scanning detected from external source,suspicious
+TRS-0009,2026-10-06T07:01:00Z,authentication,185.199.82.239,asset-05,high,Login from an unusual geographic location outside normal hours,suspicious
+TRS-0096,2026-10-09T13:26:00Z,authentication,203.0.113.35,asset-07,critical,Multiple failed login attempts followed by a successful login,suspicious
+TRN-0197,2026-10-06T21:16:00Z,dns,10.0.6.246,asset-05,medium,DNS query to a common business domain,normal
+TRN-0136,2026-10-12T15:18:00Z,dns,10.0.7.210,asset-18,low,DNS query to a common business domain,normal
+TRN-0211,2026-10-05T06:48:00Z,dns,10.0.2.90,asset-14,low,DNS query to a common business domain,normal
+TRS-0210,2026-10-10T07:01:00Z,email,203.0.113.200,asset-17,critical,Suspicious attachment blocked by endpoint protection,suspicious
+TRN-0177,2026-10-11T13:07:00Z,system,10.0.3.13,asset-02,info,Routine system health check completed,normal
+TRS-0211,2026-10-04T05:06:00Z,authentication,10.0.5.138,asset-02,high,Authentication attempts against many user accounts,suspicious
