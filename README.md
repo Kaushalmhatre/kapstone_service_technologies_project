@@ -17,7 +17,6 @@ SentinelScope is an AI-driven cybersecurity prototype that ingests assessment lo
 ### Execution Steps
 1. **Clone the repository:**
    ```cmd
-   git clone <YOUR_GITHUB_REPOSITORY_URL>
    cd kapstone-sentinel
    ```
 2. **Set up virtual environment:**
